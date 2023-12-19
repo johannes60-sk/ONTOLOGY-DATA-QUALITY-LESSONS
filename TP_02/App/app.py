@@ -43,7 +43,7 @@ def clean_data(dataframe):
                 if 0 < j < 30:
                     if verif_data(dataframe[j - 1][i], dataframe[j][i], dataframe[j + 1][i]):
                         dataframe[j][i] = round(avg_month)
-    np.savetxt("../Data/Climat_cleaned.csv", dataframe, delimiter=";")
+    np.savetxt("./Data/Climat_cleaned.csv", dataframe, delimiter=";")
 
 def verif_data(prev, data, next):
     moyenne = (prev + next) / 2
@@ -51,7 +51,7 @@ def verif_data(prev, data, next):
         return True
     return False
 
-    np.savetxt("../Data/Climat_cleaned.csv", dataframe, delimiter=";")	
+    np.savetxt("./Data/Climat_cleaned.csv", dataframe, delimiter=";")	
 
 def calcul_rolling_mean(dataframe):
     df = pd.DataFrame(dataframe)
@@ -59,7 +59,7 @@ def calcul_rolling_mean(dataframe):
     print("Rolling mean : " + roll)
 
 if __name__ == '__main__':
-    climat = genfromtxt('../Data/Climat-erreur.csv', delimiter=';', dtype=float, skip_header=True)
+    climat = genfromtxt('./Data/Climat-Erreur.csv', delimiter=';', dtype=float, skip_header=True)
     statistics(climat)
     cleaned_climat = clean_data(climat)
     # calcul_rolling_mean(climat)
