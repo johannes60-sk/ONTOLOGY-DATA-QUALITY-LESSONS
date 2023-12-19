@@ -3,10 +3,8 @@
 - On va commencer avec `2 TPs` basés sur la `Qualité de données` à travers lesquels nous découvrirons l'importance de la qualité de données, nous allons utiliser des données de climat dans les `2 Tps` :
 
   [TP1](./TP_01/)
-
-  - Coming soon
-    
-    [TP2](./TP_02/)
+  
+  [TP2](./TP_02/) - Réadapté
 
 - Puis on va passer à un TP à travers lequel on va comprendre le sens d'une ontologie à travers la découverte du logiciel `Protégé`.
   
