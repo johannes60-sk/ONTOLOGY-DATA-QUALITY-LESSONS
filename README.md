@@ -6,11 +6,9 @@
   
   [TP2](./TP_02/) - Réadapté
 
-- Puis on va passer à un TP à travers lequel on va comprendre le sens d'une ontologie à travers la découverte du logiciel `Protégé`.
+- Puis on va passer à un TP à travers lequel on va comprendre le sens d'une `ontologie` à travers la découverte du logiciel `Protégé`.
   
-  - Coming soon
-  
-    [TP3](./TP_03/)
+  [TP3](./TP_03/)
 
 
 - Pour des bases nécessaires pour le cours, je vous invite à vous rendre sur le répertoire : 

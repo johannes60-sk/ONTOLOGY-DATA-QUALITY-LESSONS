@@ -296,7 +296,7 @@ Ce petit exemple ne fait pas ressortir toutes les possibilités de `Protégé`, 
 
 La prochaine étape devrait être maintenant de lire et d’expérimenter avec `A Practical Guide To Building OWL Ontologies Using Protégé 4 and CO-ODE Tools` (https://www.uio.no/studier/emner/matnat/ifi/IN3060/v19/undervisningsmateriale/protegeowltutorialp4_v1_3.pdf) qui développe en détails l’exemple du domaine de la pizza qui est aussi exploré dans un autre tutoriel (https://protegewiki.stanford.edu/wiki/Protege4Pizzas10Minutes). Ces tutoriels utilisent une version antérieure de l’interface de `Protégé`, mais les principes de base restent les mêmes.
 
-# Partie 2
+# Partie 02
 
 Après avoir téléchargé l’ontologie des `Pizza` (http://protege.stanford.edu/
 ontologies/pizza/pizza.owl), chargez la dans `Protégé` (`File>Open`).
@@ -309,7 +309,7 @@ Identifiez :
 
 Ajoutez un type de pizza (voir par exemple http://www.chickenpizzamonaco.com/Menu.pdf).
 
-# Partie 3
+# Partie 03
 
 Construisez l’`ontologie` correspondant à la carte conceptuelle que vous avez défini lors du précédent `TP`.
 
