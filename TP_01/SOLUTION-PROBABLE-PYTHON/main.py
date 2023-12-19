@@ -474,10 +474,12 @@ def retrieve_month_deviation(dataTemperature):
 
 #Calcul de la température maximale et minimale par mois
 def retrieve_min_max_month(dataTemperature):
+    
     """
     docstring
     """
     print("#### Températures maximales et minimales pour chaque mois ####")
+
     for month in range(len(dataTemperature)):
         temp_max = np.max(dataTemperature[month])
         temp_min = np.min(dataTemperature[month])
@@ -485,6 +487,7 @@ def retrieve_min_max_month(dataTemperature):
 
 #Calcul de la température maximale et minimale pour l'année
 def retrieve_min_max_year(dataTemperature):
+
     """
     docstring
     """
@@ -506,6 +509,7 @@ def get_cmap(n, name='hsv'):
 
 #Création de graphiques pour chaque mois
 def graph_month(dataTemperature):
+    
     """
     docstring
     """
@@ -1124,9 +1128,10 @@ def retrieve_min_max_month(dataTemperature):
     docstring
     """
     print("#### Températures maximales et minimales pour chaque mois ####")
-    for month in range(len(dataTemper)) :
+    # for month in range(len(dataTemper)) :
 
-# from pandas import DataFrame, read_csv
+
+from pandas import DataFrame, read_csv
 import matplotlib.pyplot as plt
 import pandas as pd
 import matplotlib.widgets as widgets
@@ -2058,9 +2063,11 @@ if __name__ == "__main__":
     # Fonction pour la comparaison des villes
     comparaison_graph_annual_month()
 
-            self.txt = ax.text(0.7, 0.9, '')
+    txt = ax.text(0.7, 0.9, '')
+        # x, [x])[0]
 
         def mouse_move(self, event):
+           
             if not event.inaxes: return
             x, y = event.xdata, event.ydata
             indx = np.searchsorted(self.x, [x])[0]
@@ -2086,6 +2093,7 @@ if __name__ == "__main__":
 
 
 if __name__ == "__main__":
+
     #Fonction pour la moyenne de chaque mois
     retrieve_month_average(read_climat_file())
     print("\n")
@@ -2113,8 +2121,9 @@ if __name__ == "__main__":
     graph_annual_month(read_climat_file())
 
     # Fonction pour la comparaison des villes
-    comparaison_graph_annual_month()
-x, [x])[0]
+    comparaison_graph_annual_month() 
+
+           
             x = self.x[indx]
             y = self.y[indx]
             self.ly.set_xdata(x)
@@ -2253,6 +2262,7 @@ def graph_month(dataTemperature):
     """
     cmap = get_cmap(len(dataTemperature))
     for month in range(len(dataTemperature)):
+
         plt.figure("Graphique des mois")
         plt.plot(dataTemperature[month], color=cmap(month))
         plt.xlabel("Jours")
