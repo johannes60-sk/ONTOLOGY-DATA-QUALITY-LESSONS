@@ -26,9 +26,9 @@ On se servira du fichier `Savukoski kirkonkyla.xlsx` issu de l’`Open Data` pou
 
 - Utilisez `Python Scipy` pour les parties mathématiques.
 
-- Tracez les courbes de chaque mois avec une bibliothèque graphique python Matplotlib, 12 vues mensuelles.
+- Tracez les courbes de chaque mois avec une bibliothèque graphique python `Matplotlib`, `12 vues mensuelles`.
 
-- Assemblez les courbes sur un seul graphique (J1 -> J365) : vue annuelle
+- Assemblez les courbes sur un seul graphique (`J1 -> J365`) : vue annuelle
 
 - Présentez la valeur lue en parcourant la courbe à l'aide du pointeur,
 
