@@ -49,7 +49,7 @@ On se servira du fichier `Savukoski kirkonkyla.xlsx` issu de l’`Open Data` pou
 
 ## Outils : 
 
-- Utilisez `Python + matplotlib, Jupyter` éventuellement. Pas de `R` ni d’autre langage autorisés 
+- Utilisez `Python + matplotlib, Jupyter` éventuellement pas de `R` ni d’autre langage :). 
 
 -----------------
 
